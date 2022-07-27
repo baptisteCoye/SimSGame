@@ -22,7 +22,7 @@ authors:
     equal-contrib: true 
     affiliation: "1, 3"
   - name: Raymond Namyst
-    orcid: 0000−0001−7734−1258
+    orcid: 0000-0001-7734-1259
     equal-contrib: true
     affiliation: "1, 4, 5"
   - name: Denis Barthou
@@ -55,7 +55,10 @@ The variety of devices running games is very large, from personnal computers, co
 In order to develop these games more easily and allow to port them on different platforms, developpers use a key software component called the game engine.
 
 Game engines are at the heart of the design of modern video games. They handle most of the components of the game, and allows the generation of each frame(image) displayed on the player screen. They aim to keep a high frame (30 to 60 Frames per seconds) rate by scheduling the tasks required to complete such computations.
-These tasks are organized in a soft real-time, parallel task graph, which is a scenario very few works have focused on, or adapted scheduling algorithms to.
+
+Each task represents a functionality written by a given team at a given moment in the lifetime of the game engine. These tasks have precedences constraints that must be respected to ensure execution's correctness which leads their organisation as a directed acyclic graph (DAG) and have various execution time.
+Scheduling such tasks is a NP-hard and has not been studied in detail in the context of game engine, a better understanding of this problem could lead to optimizations for the benefit of players and developers.
+Our code is focus on answering the following three questions : "Can scheduling strategies from the state of the art improve the performance of game Engine" "Can changes in the scheduling mechanism reduce the gap between schedulers and critical path?" and finally "Can small changes to the task graph lead to performance improvements" 
 
 
 # Statement of need
