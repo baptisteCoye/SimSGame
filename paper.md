@@ -111,10 +111,21 @@ Metrics
 - DF: number of delayed frames (with 16.667 ms as the due date)
 - CS: cumulative slowdown (with 16.667 ms as the due date)
 
+# State of the field
+
+Scheduling is a well known issue that have been widely studied however, given the lack of studies on this particular scheduling problem, our efforts have been dedicated to finding and adapting algorithms and heuristics proposed in other context.
+Video games work as soft real-time interactive simulations, however Real-Time scheduling often considers independent reccuring tasks where earliest deadline first(EDF) heuristics are employed. Nonetheless, the game engine contains dependent tasks with an entire task graph to be computed each frame and all tasks share the same due date, obstructing the use of EDF heuristics. Moreover, parallel task scheduling usually models tasks using multiple resources simultaneously, but the tasks follows a fork-join model internally. An algorithm called DynFed was proposed to schedule parallel tasks with dependencies in real time systems by Dai, Mohaqeqi and Yi but it focuses on periodic, independent tasks whose parallel subtasks have dependencies while our problem contains periodic tasks with dependencies whose parallel subtasks ar independant.
+The Game Task Scheduler developped by Intel reflects this tasks and subtasks organisation but is developped as a tool to be integrated in a game engine and not as a benchmark system allowing to test different heurisitcs and evaluating its performances.
+
 # Acknowledgements
 
 We acknowledge contributions from Cédric Dumondelle and Hervé Hubele during the genesis of this project.
 
+# Community Guidelines
+
+The package SimSGamE, documentation, build instructions and configuration files can be downloaded from the Github repository. Users and contributors are welcome to contribute, request features and report bugs via Github.
+
 # References
 
 References can be found in paper.bib
+u
