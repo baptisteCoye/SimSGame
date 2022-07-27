@@ -115,3 +115,8 @@ FIFO serves as the baseline for comparisons.
 * SF: slowest frame (maximum frame execution time)
 * DF: number of delayed frames (with 16.667 ms as the due date)
 * CS: cumulative slowdown (with 16.667 ms as the due date)
+
+
+# Community Guidelines
+
+The package SimSGamE, documentation, build instructions and configuration files can be downloaded from the Github repository. Users and contributors are welcome to contribute, request features and report bugs via Github.
