@@ -1,0 +1,6 @@
+#define INIT_TASK "071"
+#define END_TASK "037"
+#define U_TASK "102"
+#define P_TASK "014"
+#define P2_TASK "016"
+#define S_TASK "064"

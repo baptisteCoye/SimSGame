@@ -1,0 +1,28 @@
+# Data file 
+
+# Parameters
+_nbFrame
+200
+_nbWorkers
+
+1000
+0
+EndWorkers
+_nbStartSeed
+1
+_nbEndSeed
+51
+
+#Mode
+_mode
+Random
+#Can we divide steps?
+_IsDivided
+1
+
+_JsonOutput
+0
+#Scheduling algorithms
+Methods
+
+Infinity
