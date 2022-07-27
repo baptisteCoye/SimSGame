@@ -121,10 +121,6 @@ The Game Task Scheduler developped by Intel reflects this tasks and subtasks org
 
 We acknowledge contributions from Cédric Dumondelle and Hervé Hubele during the genesis of this project.
 
-# Community Guidelines
-
-The package SimSGamE, documentation, build instructions and configuration files can be downloaded from the Github repository. Users and contributors are welcome to contribute, request features and report bugs via Github.
-
 # References
 
 References can be found in paper.bib
