@@ -57,8 +57,12 @@ In order to develop these games more easily and allow to port them on different 
 Game engines are at the heart of the design of modern video games. They handle most of the components of the game, and allows the generation of each frame(image) displayed on the player screen. They aim to keep a high frame (30 to 60 Frames per seconds) rate by scheduling the tasks required to complete such computations.
 
 Each task represents a functionality written by a given team at a given moment in the lifetime of the game engine. These tasks have precedences constraints that must be respected to ensure execution's correctness which leads their organisation as a directed acyclic graph (DAG) and have various execution time.
-Scheduling such tasks is a NP-hard and has not been studied in detail in the context of game engine, a better understanding of this problem could lead to optimizations for the benefit of players and developers.
-Our code is focus on answering the following three questions : "Can scheduling strategies from the state of the art improve the performance of game Engine" "Can changes in the scheduling mechanism reduce the gap between schedulers and critical path?" and finally "Can small changes to the task graph lead to performance improvements" 
+Scheduling such tasks is NP-hard and has not been studied in detail in the context of game engine. A better understanding of this problem could lead to optimizations for the benefit of players and developers.
+
+Our code is focus on modeling a modern game engine and answering the following three questions : 
+- Can scheduling strategies from the state of the art improve the performance of game Engine
+- Can changes in the scheduling mechanism reduce the gap between schedulers and critical path?
+- Can small changes to the task graph lead to performance improvements
 
 
 # Statement of need
