@@ -119,4 +119,8 @@ FIFO serves as the baseline for comparisons.
 
 # Community Guidelines
 
-The package SimSGamE, documentation, build instructions and configuration files can be downloaded from the Github repository. Users and contributors are welcome to contribute, request features and report bugs via Github.
+
+The package SimSGamE, documentation, build instructions and configuration files can be downloaded from the Github repository. 
+All the questions via the issue tabs will be answered as quickly as possible: the more information you can give us about the problem (reproductivity, logs etc...) the easier it'll be for us to help you.
+
+Users are welcome to contribute, request features and report bugs via Github. Pull request does not require unit- and functional tests. Code should be commented in a way that allows for easier understanding.
