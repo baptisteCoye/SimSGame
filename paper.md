@@ -1,5 +1,6 @@
 ---
-title: SimSGamE : Scheduling simulator for modern game engines
+title: 
+  SimSGamE : Scheduling simulator for modern game engines
 
 tags:
   - Task Programming
