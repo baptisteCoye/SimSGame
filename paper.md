@@ -1,6 +1,6 @@
 ---
 title: 
-  SimSGamE : Scheduling simulator for modern game engines
+  "SimSGamE : Scheduling simulator for modern game engines"
 
 tags:
   - Task Programming
@@ -12,23 +12,18 @@ tags:
 authors:
   - name: Mustapha Regragui
     orcid: 0000-0001-6316-8079
-    equal-contrib: true
     affiliation: "1"
   - name: Baptiste Coye
     orcid: 0000-0002-7619-4492
-    equal-contrib: true 
     affiliation: "1, 2"
   - name: Laercio Lima Pilla
     orcid: 0000-0003-0997-586X
-    equal-contrib: true 
     affiliation: "1, 3"
   - name: Raymond Namyst
     orcid: 0000-0001-7734-1258
-    equal-contrib: true
     affiliation: "1, 4, 5"
   - name: Denis Barthou
     orcid: 0000-0001-7110-2037
-    equal-contrib: true
     affiliation: "1, 5, 6"
 
 affiliations:
@@ -125,4 +120,4 @@ We acknowledge contributions from Cédric Dumondelle and Hervé Hubele during th
 # References
 
 References can be found in paper.bib
-u
+
